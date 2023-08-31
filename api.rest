@@ -1,0 +1,22 @@
+// Home api
+POST http://localhost:8080/home HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "2023-08-28T05:27:54.637Z"
+}
+###
+GET http://localhost:8080/home HTTP/1.1
+content-type: application/json
+###
+PUT http://localhost:8080/home/1 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "2023-08-28T05:27:54.637Z"
+}
+###
+GET http://localhost:8080/home/1 HTTP/1.1
+content-type: application/json
